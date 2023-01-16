@@ -1,0 +1,9 @@
+name: output
+on:
+  issue:
+    branches:
+      - 'master'
+jobs:
+  out:
+    runs-on: ubuntu-latest
+    run: echo " ${{ github.event }} "
