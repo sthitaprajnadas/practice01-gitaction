@@ -2,7 +2,7 @@ name: output
 on:
   issue:
     branches:
-      - 'master'
+      - 'main'
 jobs:
   out:
     runs-on: ubuntu-latest
