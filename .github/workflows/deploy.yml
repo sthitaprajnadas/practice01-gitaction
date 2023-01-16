@@ -4,12 +4,12 @@ on:
     branches:
       - 'main'
 jobs:
-  lint:
+  deploy:
     runs-on: ubuntu-latest
-    run: npm run lint  
-  test:
-    runs-on: ubuntu-latest
-    run: npm run tests  
-  build:
-    runs-on: ubuntu-latest
-    run: npm run build  
+    steps:
+    - name: lint
+      run: npm run lint  
+    - name: ubuntu-latest
+      run: npm run tests  
+    - name: ubuntu-latest
+      run: npm run build  

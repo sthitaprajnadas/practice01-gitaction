@@ -4,6 +4,8 @@ on:
     branches:
       - 'main'
 jobs:
-  out:
+  outjob:
     runs-on: ubuntu-latest
-    run: echo " ${{ github.event }} "
+    steps:
+    - name : outstep
+      run: echo " ${{ github.event }} "
