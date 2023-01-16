@@ -14,6 +14,6 @@ jobs:
     - name: lint
       run: npm run lint  
     - name: ubuntu-latest
-      run: npm run tests  
+      run: npm run test  
     - name: ubuntu-latest
       run: npm run build  
