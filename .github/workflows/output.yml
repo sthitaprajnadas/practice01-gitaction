@@ -1,6 +1,6 @@
 name: output
 on:
-  issue:
+  issues:
     branches:
       - 'main'
 jobs:
@@ -10,4 +10,3 @@ jobs:
     - name : outstep
       run: echo " ${{ toJSON(github.event) }} "
 
-      
